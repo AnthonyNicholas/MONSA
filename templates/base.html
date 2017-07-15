@@ -21,6 +21,9 @@
         <!-- http://stewartjpark.com/Flask-JSGlue/ -->
         {{ JSGlue.include() }}
         
+        <link href="{{ url_for('static', filename='styles_base.css') }}" rel="stylesheet"/>
+
+        
         <title>Museum of Nature-Strip Art</title>
 
     </head>
@@ -31,6 +34,12 @@
         {% block content %}
         {% endblock %}
 
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Contact: antfellow@gmail.com</p>
+      </div>
+    </footer>
 
     </body>
 </html>

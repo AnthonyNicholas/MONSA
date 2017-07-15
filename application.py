@@ -29,27 +29,58 @@ if app.config["DEBUG"]:
 db = SQL("sqlite:///bestNatureStripAddresses.db")
 
 @app.route("/")
-def gallery():
+def mainpage():
     """Get addresses from DB and render gallery. """
     
-    places = db.execute("""SELECT * FROM places
-        GROUP BY street, suburb, state
-        ORDER BY RANDOM()
-        LIMIT 20""")
+    places = db.execute("""SELECT * FROM natureStripRecords
+    ORDER BY score DESC
+    LIMIT 20""")
 
-    picItems={}
+    logging.debug(places)
+
+    picItems=[]
 
     for row in places:
+        picDetails={}
         address = row['street_num'] + " " + row['street'] + " " + row['suburb'] + " " +row['state'] + " " + row['country']
         latLong = str(row['latitude']) + ', ' + str(row ['longitude'])
         heading = str(row['googSV_heading'])
         picUrl = 'https://maps.googleapis.com/maps/api/streetview?size=640x300&location=' + latLong + '&fov=100&heading=' + heading + '&pitch=-5&key=AIzaSyCssINvVOAV0n5dZmZLtpgfmMqvCBhuJPo'
-        artistStatement = row['artistStatement']
-        picItems[address] = {}
-        picItems[address]['picUrl'] = picUrl 
-        picItems[address]['artistStatement'] = artistStatement 
+        
+        picDetails['address'] = address 
+        picDetails['picUrl'] = picUrl 
+        picDetails['score'] = row['score']
+        picDetails['artistStatement'] = row['artistStatement']
+        picItems.append(picDetails)
 
-    return render_template("gallery.html", key="AIzaSyCssINvVOAV0n5dZmZLtpgfmMqvCBhuJPo", picItems=picItems)
+    logging.debug(picItems)
+
+    return render_template("mainPage.html", key="AIzaSyCssINvVOAV0n5dZmZLtpgfmMqvCBhuJPo", picItems=picItems[1:], firstItem=picItems[0])
+    
+@app.route("/gallery")
+def gallery():
+    """Get addresses from DB and render gallery. """
+    
+    places = db.execute("""SELECT * FROM natureStripRecords
+        ORDER BY score DESC
+        LIMIT 20""")
+
+    picItems=[]
+
+    for row in places:
+        picDetails={}
+        address = row['street_num'] + " " + row['street'] + " " + row['suburb'] + " " +row['state'] + " " + row['country']
+        latLong = str(row['latitude']) + ', ' + str(row ['longitude'])
+        heading = str(row['googSV_heading'])
+        picUrl = 'https://maps.googleapis.com/maps/api/streetview?size=640x300&location=' + latLong + '&fov=100&heading=' + heading + '&pitch=-5&key=AIzaSyCssINvVOAV0n5dZmZLtpgfmMqvCBhuJPo'
+        
+        picDetails['address'] = address 
+        picDetails['picUrl'] = picUrl 
+        picDetails['score'] = row['score']
+        picDetails['artistStatement'] = row['artistStatement']
+        picItems.append(picDetails)
+
+    return render_template("gallery.html", key="AIzaSyCssINvVOAV0n5dZmZLtpgfmMqvCBhuJPo", picItems=picItems[1:], firstItem=picItems[0])
 
 @app.route("/update")
 def update():
@@ -77,7 +108,7 @@ def update():
     if (sw_lng <= ne_lng):
 
         # doesn't cross the antimeridian
-        rows = db.execute("""SELECT * FROM places
+        rows = db.execute("""SELECT * FROM natureStripRecords
             WHERE :sw_lat <= latitude AND latitude <= :ne_lat AND (:sw_lng <= longitude AND longitude <= :ne_lng)
             GROUP BY street, suburb, state
             ORDER BY RANDOM()
@@ -87,7 +118,7 @@ def update():
     else:
 
         # crosses the antimeridian
-        rows = db.execute("""SELECT * FROM places
+        rows = db.execute("""SELECT * FROM natureStripRecords
             WHERE :sw_lat <= latitude AND latitude <= :ne_lat AND (:sw_lng <= longitude OR longitude <= :ne_lng)
             GROUP BY country_code, place_name, admin_code1
             ORDER BY RANDOM()
@@ -129,9 +160,61 @@ def captureButton():
     googSV_heading=request.args.get("heading") 
     artistStatement='hi there' #need to find a way to get country
 
-    db.execute("""INSERT INTO places VALUES (:street_num, :street, :suburb, :state, :country, :latitude, :longitude, :googSV_heading, :artistStatement)""", street_num=street_num, street=street, suburb=suburb, state=state, country=country, latitude=latitude, longitude=longitude, googSV_heading=googSV_heading, artistStatement=artistStatement)
+    db.execute("""INSERT INTO natureStripRecords VALUES (:street_num, :street, :suburb, :state, :country, :latitude, :longitude, :googSV_heading, :artistStatement, :score)""", street_num=street_num, street=street, suburb=suburb, state=state, country=country, latitude=latitude, longitude=longitude, googSV_heading=googSV_heading, artistStatement=artistStatement, score=0)
     
     return render_template("map.html", key=os.environ.get("API_KEY"))
 
+@app.route("/upVoteButton")
+def upVoteButton():
+    
+    logging.debug("entered app.py")
 
+    id = request.args.get("id") #dict
+    logging.debug("id = " + id)
+    picItems=getListOfPics()
+    logging.debug("picItems =  " + picItems)
+
+    pic = getPicByID(picItems, id)
+    newScore = pic['score'] + 1
+    
+    db.execute("""UPDATE places SET score = :newScore WHERE id = :id)""", score=newScore, id = id)
+    
+    picItems=getListOfPics()
+
+    return render_template("mainPage.html", key="AIzaSyCssINvVOAV0n5dZmZLtpgfmMqvCBhuJPo", picItems=picItems, firstItem=pic)
+
+# Get list of pics from db sorted in score order
+
+def getListOfPics():
+
+    places = db.execute("""SELECT * FROM natureStripRecords
+        ORDER BY score DESC
+        LIMIT 20""")
+
+    picItems=[]
+
+    for row in places:
+        picDetails={}
+        address = row['street_num'] + " " + row['street'] + " " + row['suburb'] + " " +row['state'] + " " + row['country']
+        latLong = str(row['latitude']) + ', ' + str(row ['longitude'])
+        heading = str(row['googSV_heading'])
+        picUrl = 'https://maps.googleapis.com/maps/api/streetview?size=640x300&location=' + latLong + '&fov=100&heading=' + heading + '&pitch=-5&key=AIzaSyCssINvVOAV0n5dZmZLtpgfmMqvCBhuJPo'
+        
+        picDetails['address'] = address 
+        picDetails['picUrl'] = picUrl 
+        picDetails['score'] = row['score']
+        picDetails['artistStatement'] = row['artistStatement']
+        picItems.append(picDetails)
+        
+    return picItems
+
+# Get pics with particular ID
+
+def getPicByID(picItems, ID):
+
+    for i in range(len(picItems)):
+        if picItems[i]['ID'] == ID:
+            return picItems[i]
+    
+    return None
 

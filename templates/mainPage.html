@@ -1,0 +1,13 @@
+{% extends "gallery.html" %}
+{% block mainpageJumbo %}
+
+  <link href="{{ url_for('static', filename='styles_gallery.css') }}" rel="stylesheet"/>
+  
+  <div class="container">
+    <div class="jumbotron">
+      <p class="text-center"> The museum of leading nature strips. &nbsp; <a href={{ url_for('gallery') }}>View</a> the gallery.  &nbsp; <a href={{ url_for('map') }}>Add</a> new Nature Strips.</p>
+    </div>
+  </div>
+
+
+{% endblock %}

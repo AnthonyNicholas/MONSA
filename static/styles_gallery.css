@@ -1,98 +1,54 @@
 /* allow map to fill viewport */
-html, body, #map-canvas, .container-fluid
+html, body, .container-fluid
 {
     /* height of these elements */
     height: 100%;
 
     /* no margin around these elements */
     margin: 0;
-
+    
     /* disable scrollbars */
-    overflow: hidden;
+    /*overflow: hidden;*/
+    overflow-y: auto;
+
 
     /* no padding within these elements */
     padding: 0;
 }
 
 body { 
-    padding-top: 65px; 
+    padding-top: 65px;
+    padding-bottom: 65px; 
+    /*margin: 0 0 60px 0;*/
 }
 
-
-/* center form */
-#form
-{
-    /* position form "absolutely" where we want it */
-    position: absolute;
-
-    /* distance from top edge of viewport */
-    top: 60px;
-
-    /* form's width */
-    width: 100%;
-}
-#form .form-group
-{
-    /* block-level flex container */
-    display: flex;
-
-    /* center container's content */
-    justify-content: center;
-}
-
-/* stylize text box */
-#q
-{
-    /* override typeahead.js's transparent background */
-    background-color: #ffffff !important;
-
-    /* text box's width */
-    width: 300px;
-}
-
-/* stylize info window */
-#info
-{
-    /* no margin around this element */
-    margin: 0;
-
-    /* allow scrollbars as needed */
-    overflow: auto;
-}
-#info ul
-{
-    margin-bottom: 0;
-}
-
-/* stylize typeahead.js a la http://twitter.github.io/typeahead.js/css/examples.css */
-.tt-menu
-{
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-top: 1px;
-    max-height: 150px;
-    overflow-y: auto;
-    width: 300px;
-}
-.tt-suggestion.tt-cursor {
-    background-color: #0097cf;
-    color: #fff;
-    cursor: pointer;
-}
-.tt-suggestion {
-    margin: 0;
-    padding: 6px 12px;
-}
-
+/*#content {*/
+    /*max-height: calc(100% - 120px);*/
+/*    overflow-y: scroll;*/
+    /*padding: 0px 10%;*/
+    /*margin-top: 60px;*/
+/*}*/
 
 /* stylize carousel */
 
-.intro {
-    text-align: center;
-    max-width: 100%;
-    right: 29px;
-    top: 50%;
+/*.intro {*/
+/*    text-align: center;*/
+/*    max-width: 100%;*/
+/*    right: 29px;*/
+/*    top: 50%;*/
+/*}*/
+
+.carousel .item {
+      height: 700px;
+    }
+
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 700px;
+  overflow: visible;
 }
 
 .carousel-indicators li { 
@@ -100,32 +56,56 @@ body {
 }
 
 #myCarousel {
-    top: 10%;
+    /*top: 5%;*/
 }
 
-img { 
-    width: 75%; 
-    margin: auto; 
-}
+/*img { */
+/*    width: 80%; */
+/*    margin: auto; */
+/*}*/
 
 .carousel-control {
-    color: black;
+    color: white;
 }
 
 .carousel-control.left, .carousel-control.right {
     background-image: none;
 }
 
+/*.carousel-caption {*/
+/*    position: relative;*/
+/*    color: black;*/
+/*    left: auto;*/
+/*    right: auto;*/
+/*}*/
+
 .carousel-caption {
-    position: relative;
-    color: black;
-    left: auto;
-    right: auto;
+    background-color: #000000;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    max-width: 70%;
+    padding: 0 20px;
+    margin:0 auto;
+    /*margin-top: 200px;*/
+    margin-bottom: 20px;
+    /*bottom: 25px;*/
+    text-align:left;
+    color: white;
+    /*display: block;*/
 }
 
-#addButton {
-    position: absolute;
-    right: 100px;
-    bottom: 50px;
-    z-index: 10;
+
+.btn {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  background-color: #ddd;
+  background-color: #4d90fe;
+  color: white;
+  position: relative;
+  /*right: 200px;*/
+  left: 25%;
+  /*bottom: 25px;*/
+  /*z-index: 10;*/
+  /*align:center;*/
+  /*margin:10 auto;*/
 }
+

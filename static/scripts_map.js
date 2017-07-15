@@ -9,13 +9,9 @@ var markers = [];
 var info;
 
 
-// This example adds a search box to a map, using the Google Place Autocomplete
-// feature. People can enter geographical searches. The search box will return a
+// Adds a search box to a map, using the Google Place Autocomplete
+// feature. People can enter geographical searches. The search box returns a
 // pick list containing a mix of places and predicted search terms.
-
-// This example requires the Places library. Include the libraries=places
-// parameter when you first load the API. For example:
-// <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
 
 function initAutocomplete() {
     map = new google.maps.Map(document.getElementById('map'), {
@@ -57,22 +53,24 @@ function initAutocomplete() {
           console.log("Returned place contains no geometry");
           return;
         }
-        // var icon = {
-        //   url: url_for('static', filename='tree.png'),
-        // //   url: place.icon,
-        //   size: new google.maps.Size(71, 71),
-        //   origin: new google.maps.Point(0, 0),
-        //   anchor: new google.maps.Point(17, 34),
-        //   scaledSize: new google.maps.Size(25, 25)
-        // };
+        
+        // Adds icons associated with the search bar.
+
+        var icon = {
+          url: place.icon,
+          size: new google.maps.Size(71, 71),
+          origin: new google.maps.Point(0, 0),
+          anchor: new google.maps.Point(17, 34),
+          scaledSize: new google.maps.Size(25, 25)
+        };
     
-        // // Create a marker for each place.
-        // markers.push(new google.maps.Marker({
-        //   map: map,
-        //   icon: icon,
-        //   title: place.name,
-        //   position: place.geometry.location
-        // }));
+        // Create a marker for each place.
+        markers.push(new google.maps.Marker({
+          map: map,
+          icon: icon,
+          title: place.name,
+          position: place.geometry.location
+        }));
     
         if (place.geometry.viewport) {
           // Only geocodes have viewport.
@@ -126,11 +124,8 @@ function addMarker(place)
     
     var LatLng = {lat: place.latitude, lng: place.longitude};
     
-    // var IconUrl = url_for('static', filename='tree.png')
-    
     var Image = {
-        // url = IconUrl,
-        url: 'https://vignette4.wikia.nocookie.net/tinymonsters/images/2/23/Debris_small_tree.png/revision/latest?cb=20121018203235',
+        url: '/static/images/plant.png',
         scaledSize: new google.maps.Size(25, 25)
         };
     
