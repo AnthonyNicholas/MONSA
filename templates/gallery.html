@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block content %}
+
+  <link href="{{ url_for('static', filename='styles_gallery.css') }}" rel="stylesheet"/>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="https://maps.googleapis.com/maps/api/streetview?size=600x300&location=45.4855305,-122.7032018&fov=100&heading=266.57&key=AIzaSyCssINvVOAV0n5dZmZLtpgfmMqvCBhuJPo" alt="First one">
+        <div class="carousel-caption">
+          <p>Address: 5132 SW Richardson Drive Portland Oregon USA </p>
+          <p>Artist Statement: Portland, oh Portland. </p>
+        </div>
+      </div>
+      
+      {% for address, v in picItems.items() %} 
+        <div class="item">
+          <img src="{{ v['picUrl'] }}" alt="Other">
+          <div class="container">
+            <div class="carousel-caption">
+              <p>Address: {{ address }}</p>
+              <p>Artist Statement: {{ v['artistStatement'] }} </p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}      
+
+    </div>
+  
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+{% endblock %}

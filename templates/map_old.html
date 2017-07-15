@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <!--<div class="container" id="captureButton">-->
+    <!--  <p><button id="addButton" type="button" class="btn">Add this Nature Strip to MONSA Gallery</button></p>-->
+    <!--</div>-->
+
+    <!-- fill viewport -->
+        
+    <!--<div class="container-fluid">-->
+    <div class="container">
+         <!--https://developers.google.com/maps/documentation/javascript/tutorial -->
+        <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+        <div id="map"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='scripts_map2.js') }}"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key={{ key | urlencode }}&libraries=places&callback=initAutocomplete"
+         async defer></script>
+         
+    <!--<script src="{{ url_for('static', filename='scripts_map.js') }}"></script>-->
+
+
+    </div>
+        
+{% endblock %}

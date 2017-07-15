@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+
+    <link href="{{ url_for('static', filename='styles_map.css') }}" rel="stylesheet"/>
+    
+  </head>
+  <body>
+
+    <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+    <div id="map"></div>
+    
+    <div class="container" id="captureButton">
+      <p><button id="addButton" type="button" class="btn">Add this Nature Strip to MONSA Gallery</button></p>
+    </div>
+
+    <div id="mapBlurb" class="container">
+      <p> Map of the best Nature Strips. If you know a great nature strip, please add it.  Locate it on the map above. Zoom to the street view and then press the add nature strip button</p>
+    </div>
+    
+    <script src="{{ url_for('static', filename='scripts_map.js') }}"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBn3B7xdPB2NlsxdaBAhiessr-3aa7Ie_E&libraries=places&callback=initAutocomplete"
+         async defer></script>
+
+{% endblock %}
