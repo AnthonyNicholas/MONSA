@@ -1,54 +1,52 @@
-/* allow map to fill viewport */
-html, body, .container-fluid
-{
-    /* height of these elements */
+
+html{
+    height:100%;
+}
+
+html body{
     height: 100%;
+    overflow: hidden;
+}
 
-    /* no margin around these elements */
-    margin: 0;
-    
-    /* disable scrollbars */
-    /*overflow: hidden;*/
+html, body, .container-fluid.body-content{
+    position:absolute;
+    top: 50px;
+    bottom: 0px;
+    right: 0;
+    left: 0;
     overflow-y: auto;
-
-
-    /* no padding within these elements */
+    height: 100%;
+    margin: 0;
     padding: 0;
 }
 
-body { 
-    padding-top: 65px;
-    padding-bottom: 65px; 
-    /*margin: 0 0 60px 0;*/
-}
 
-/*#content {*/
-    /*max-height: calc(100% - 120px);*/
-/*    overflow-y: scroll;*/
-    /*padding: 0px 10%;*/
-    /*margin-top: 60px;*/
-/*}*/
+#content {
+    max-height: calc(100% - 120px);
+    overflow-y: scroll;
+    padding: 0px 10%;
+    margin-top: 60px;
+}
 
 /* stylize carousel */
 
-/*.intro {*/
-/*    text-align: center;*/
-/*    max-width: 100%;*/
-/*    right: 29px;*/
-/*    top: 50%;*/
-/*}*/
-
 .carousel .item {
-      height: 700px;
+      height: 100%;
     }
 
 .carousel img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 700px;
-  overflow: visible;
+    /*padding-top: 75px;*/
+    /*width: 80%;*/
+    min-width: 80%;
+    margin: auto;
+    /*height: 100%;*/
+    overflow: visible;
+    overflow-y: auto;
+
+}
+
+.carousel-inner{
+    overflow: visible;
 }
 
 .carousel-indicators li { 
@@ -57,55 +55,39 @@ body {
 
 #myCarousel {
     /*top: 5%;*/
+    /*bottom: 5%;*/
 }
 
-/*img { */
-/*    width: 80%; */
-/*    margin: auto; */
-/*}*/
 
 .carousel-control {
-    color: white;
+    color: blue;
 }
 
 .carousel-control.left, .carousel-control.right {
     background-image: none;
+    color: blue;
 }
-
-/*.carousel-caption {*/
-/*    position: relative;*/
-/*    color: black;*/
-/*    left: auto;*/
-/*    right: auto;*/
-/*}*/
 
 .carousel-caption {
     background-color: #000000;
+    border-radius: 25px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-    position: absolute;
+    position: relative;
     max-width: 70%;
-    padding: 0 20px;
-    margin:0 auto;
-    /*margin-top: 200px;*/
-    margin-bottom: 20px;
-    /*bottom: 25px;*/
-    text-align:left;
+    left: 15%;
+    padding: 20px;
+    bottom: -25px;
+    text-align:center;
     color: white;
-    /*display: block;*/
 }
 
-
 .btn {
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-  background-color: #ddd;
-  background-color: #4d90fe;
-  color: white;
-  position: relative;
-  /*right: 200px;*/
-  left: 25%;
-  /*bottom: 25px;*/
-  /*z-index: 10;*/
-  /*align:center;*/
-  /*margin:10 auto;*/
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: #ddd;
+    background-color: #4d90fe;
+    color: white;
+    position: relative;
+    left: auto;
+    margin: 15px;
 }
 

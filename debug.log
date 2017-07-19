@@ -1,0 +1,653 @@
+INFO:werkzeug: * Detected change in '/home/ubuntu/workspace/xFinal_Project/mashup/application.py', reloading
+INFO:root:reloading gallery
+INFO:root:2
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 13:07:11] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 13:07:11] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 13:07:11] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:07:12] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 13:07:12] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 13:07:13] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/ubuntu/workspace/xFinal_Project/mashup/application.py', reloading
+INFO:root:reloading gallery
+INFO:root:2
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:08:53] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:08:53] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:08:53] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 13:08:54] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:08:56] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:08:57] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/ubuntu/workspace/xFinal_Project/mashup/application.py', reloading
+INFO:werkzeug: * Detected change in '/home/ubuntu/workspace/xFinal_Project/mashup/application.py', reloading
+INFO:werkzeug: * Detected change in '/home/ubuntu/workspace/xFinal_Project/mashup/application.py', reloading
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 13:11:13] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 13:11:13] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 13:11:13] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:11:14] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:11:15] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 13:11:16] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 13:11:53] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:11:53] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:11:53] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 13:11:53] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:11:56] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:11:56] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:root:downvoting
+INFO:root:id = 2
+INFO:root:newScore = 14
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:11:59] "GET /downVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:11:59] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:11:59] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:11:59] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:11:59] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:11:59] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:11:59] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 13:14:13] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 13:14:13] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 13:14:13] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:14:14] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:14:16] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 13:14:16] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:downvoting
+INFO:root:id = 2
+INFO:root:newScore = 13
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 13:14:27] "GET /downVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 13:14:27] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:14:28] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 13:14:28] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:14:28] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 13:14:28] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:14:28] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:upvoting
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 13:15:14] "GET /upVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:downvoting
+INFO:root:id = 2
+INFO:root:newScore = 13
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:15:15] "GET /downVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:15:15] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:15:15] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:15:15] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 13:15:15] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 13:15:15] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 13:15:16] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:15:16] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:upvoting
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:15:21] "GET /upVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:15:21] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:15:21] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:15:21] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 13:15:21] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:15:21] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 13:15:22] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:upvoting
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 13:15:25] "GET /upVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 13:15:25] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:15:25] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 13:15:25] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 13:15:25] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 13:15:26] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:15:26] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 13:21:11] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 13:21:12] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 13:21:12] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:21:12] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 13:21:13] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:21:13] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/ubuntu/workspace/xFinal_Project/mashup/application.py', reloading
+INFO:root:reloading gallery2
+INFO:root:2
+INFO:root:4
+INFO:root:1
+INFO:root:9
+INFO:root:11
+INFO:root:6
+INFO:root:8
+INFO:root:3
+INFO:root:7
+INFO:root:5
+INFO:root:12
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 13:23:40] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 13:23:40] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 13:23:40] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 13:23:41] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 13:23:41] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 13:23:41] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/ubuntu/workspace/xFinal_Project/mashup/application.py', reloading
+INFO:root:Hello World3
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:25:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:25:12] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:25:12] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:25:12] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:25:12] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:25:12] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:Hello World3
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:26:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 13:26:44] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:26:44] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 13:26:45] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:26:45] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 13:26:45] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 13:26:48] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:28:06] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 13:28:06] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:root:Hello World3
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 13:35:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 13:35:21] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:35:21] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 13:35:22] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 13:35:22] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:35:24] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:root:Hello World3
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 13:35:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 13:35:57] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:35:58] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 13:35:58] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:36:00] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:36:00] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:Hello World3
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:40:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:40:19] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:40:20] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 13:40:20] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:40:21] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 13:40:22] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:Hello World3
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 13:41:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 13:41:50] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:41:50] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 13:41:51] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:41:51] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 13:41:51] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:Hello World3
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:02:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:02:47] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:02:47] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:02:47] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:02:48] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:02:48] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:upvoting
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:03:05] "GET /upVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:03:05] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:03:05] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:03:05] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:03:06] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:03:06] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:03:06] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:root:upvoting
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:03:16] "GET /upVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:03:16] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:03:17] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:03:17] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:03:17] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:03:17] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:03:17] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:04:31] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:04:31] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:04:31] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:04:32] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:04:33] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:04:33] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:upvoting
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:04:40] "GET /upVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:04:40] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:04:41] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:04:41] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:04:41] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:04:41] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:04:41] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:root:upvoting
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:04:46] "GET /upVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:04:46] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:04:46] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:04:46] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:04:46] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:04:46] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:04:47] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:09:42] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:09:42] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:09:42] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:09:43] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:09:44] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:09:44] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:10:11] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:10:11] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:10:11] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:10:12] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:10:13] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:10:13] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:10:51] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:10:51] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:10:51] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:10:52] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:10:53] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:10:53] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:upvoting
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:10:57] "GET /upVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:10:57] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:10:57] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:10:58] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:10:58] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:10:58] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:10:58] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:upvoting
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:11:08] "GET /upVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:11:08] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:11:09] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:11:09] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:11:09] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:11:09] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:11:10] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:downvoting
+INFO:root:id = 2
+INFO:root:newScore = 20
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:11:17] "GET /downVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:11:17] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:11:17] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:11:17] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:11:17] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:11:17] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:11:17] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:upvoting
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:11:20] "GET /upVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:11:21] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:11:21] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:11:21] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:11:21] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:11:21] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:11:21] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:13:52] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:13:52] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:13:52] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:13:52] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:13:53] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:13:53] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:14:18] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:14:19] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:14:19] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:14:19] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:14:21] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:14:21] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:15:10] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:15:10] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:15:11] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:15:11] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:15:11] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:15:11] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:15:39] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:15:39] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:15:40] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:15:40] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:15:41] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:15:41] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:16:21] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:16:21] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:16:21] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:16:22] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:16:22] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:16:22] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:21:06] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:21:06] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:21:06] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:21:07] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:21:07] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:21:07] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:21:25] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:21:26] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:21:26] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:21:26] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:21:27] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:21:28] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:22:21] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:22:21] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:22:21] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:22:21] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:22:22] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:22:23] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:24:37] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:24:37] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:24:37] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:24:38] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:24:39] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:24:39] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:upvoting
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:24:42] "GET /upVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:24:43] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:24:43] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:24:43] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:24:43] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:24:43] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:24:43] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:downvoting
+INFO:root:id = 2
+INFO:root:newScore = 21
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:24:47] "GET /downVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:24:47] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:24:47] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:24:47] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:24:47] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:24:47] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:24:48] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:28:56] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:28:56] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:28:56] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:28:57] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:28:57] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:28:57] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:upvoting
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:29:02] "GET /upVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:29:03] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:29:03] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:29:03] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:29:03] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:29:04] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:29:04] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:upvoting
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:29:08] "GET /upVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:29:08] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:29:09] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:29:09] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:29:09] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:29:09] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:29:09] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:downvoting
+INFO:root:id = 2
+INFO:root:newScore = 22
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:29:11] "GET /downVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:29:12] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:29:12] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:29:12] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:29:12] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:29:12] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:29:12] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:root:downvoting
+INFO:root:id = 2
+INFO:root:newScore = 21
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:29:15] "GET /downVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:29:15] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:29:15] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:29:15] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:29:15] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:29:15] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:29:15] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:30:12] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:30:12] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:30:13] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:30:13] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:30:14] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:30:14] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:30:32] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:30:33] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:30:33] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:30:33] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:30:33] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:30:34] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:30:55] "GET /gallery HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:30:55] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:30:56] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:30:56] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:30:56] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:30:56] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:31:21] "GET /gallery HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:31:21] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:31:21] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:31:21] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:31:22] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:31:23] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:33:34] "GET /gallery HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:33:35] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:33:35] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:33:35] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:33:36] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:33:36] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:34:02] "GET /gallery HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:34:02] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:34:02] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:34:02] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:34:03] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:34:03] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:34:51] "GET /gallery HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:34:52] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:34:52] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:34:52] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:34:52] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:34:53] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:upvoting
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:34:58] "GET /upVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:34:58] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:34:58] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:34:58] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:34:58] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:34:58] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:34:59] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:downvoting
+INFO:root:id = 2
+INFO:root:newScore = 21
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:35:02] "GET /downVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:35:02] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:35:02] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:35:02] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:35:03] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:35:03] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:35:03] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:37:38] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:37:38] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:37:39] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:37:39] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:37:39] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:37:39] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:upvoting
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:37:56] "GET /upVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:37:57] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:37:57] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:37:57] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:37:57] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:37:57] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:37:58] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:downvoting
+INFO:root:id = 4
+INFO:root:newScore = 9
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:38:08] "GET /downVoteButton?id=4 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:38:08] "GET /reloadGallery?id=4 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:38:09] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:38:09] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:38:09] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:38:09] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:38:09] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:upvoting
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:38:20] "GET /upVoteButton?id=1 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:38:20] "GET /reloadGallery?id=1 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:38:20] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:38:21] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:38:21] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:38:21] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:38:21] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:downvoting
+INFO:root:id = 4
+INFO:root:newScore = 8
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:38:32] "GET /downVoteButton?id=4 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:38:32] "GET /reloadGallery?id=4 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:38:32] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:38:32] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:38:32] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:38:33] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:38:33] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:downvoting
+INFO:root:id = 1
+INFO:root:newScore = 7
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:38:45] "GET /downVoteButton?id=1 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:38:46] "GET /reloadGallery?id=1 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:38:46] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:38:46] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:38:46] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:38:46] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:38:46] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:44:23] "GET /reloadGallery?id=1 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:44:23] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:44:23] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:44:24] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:44:24] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:44:24] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:45:33] "GET /reloadGallery?id=1 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:45:34] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:45:34] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:45:34] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:45:35] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:45:35] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:upvoting
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:45:47] "GET /upVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:45:47] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:45:47] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:45:47] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:45:47] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:45:48] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:45:48] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:root:upvoting
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:46:02] "GET /upVoteButton?id=1 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:46:03] "GET /reloadGallery?id=1 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:46:03] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:46:03] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:46:03] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.16 - - [19/Jul/2017 14:46:03] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:46:03] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:downvoting
+INFO:root:id = 1
+INFO:root:newScore = 7
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:46:11] "GET /downVoteButton?id=1 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:46:11] "GET /reloadGallery?id=1 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:46:11] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:46:11] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:46:11] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:46:11] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:46:12] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:downvoting
+INFO:root:id = 2
+INFO:root:newScore = 22
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:46:17] "GET /downVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:46:17] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:46:18] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:46:18] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:46:18] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:46:18] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:46:18] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:47:39] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:47:40] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:47:40] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:47:40] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:47:41] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:47:41] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:upvoting
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:47:49] "GET /upVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:47:50] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:47:50] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:47:50] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:47:50] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:47:50] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:47:50] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:downvoting
+INFO:root:id = 2
+INFO:root:newScore = 22
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:47:54] "GET /downVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:47:54] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:47:55] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:47:55] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:47:55] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:47:55] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:47:55] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:downvoting
+INFO:root:id = 2
+INFO:root:newScore = 21
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:47:59] "GET /downVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:47:59] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:47:59] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:47:59] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:47:59] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:47:59] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:47:59] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:downvoting
+INFO:root:id = 2
+INFO:root:newScore = 20
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:48:03] "GET /downVoteButton?id=2 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:48:03] "GET /reloadGallery?id=2 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:48:03] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:48:03] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:48:03] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:48:03] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:48:03] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:upvoting
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:48:11] "GET /upVoteButton?id=4 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.1.30 - - [19/Jul/2017 14:48:11] "GET /reloadGallery?id=4 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:48:11] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:48:11] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:48:11] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:48:11] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.240 - - [19/Jul/2017 14:48:12] "GET /static/images/plant.png HTTP/1.1" 200 -
+INFO:root:downvoting
+INFO:root:id = 9
+INFO:root:newScore = 6
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:48:23] "GET /downVoteButton?id=9 HTTP/1.1" 200 -
+INFO:root:reloading gallery2
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:48:24] "GET /reloadGallery?id=9 HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:48:24] "GET /jsglue.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:48:24] "GET /static/styles_base.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.33 - - [19/Jul/2017 14:48:24] "GET /static/styles_gallery.css HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:48:24] "GET /static/scripts_gallery.js HTTP/1.1" 200 -
+INFO:werkzeug:10.240.0.5 - - [19/Jul/2017 14:48:24] "GET /static/images/plant.png HTTP/1.1" 200 -

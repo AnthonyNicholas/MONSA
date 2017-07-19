@@ -20,8 +20,9 @@
         
         <img src="{{ firstItem['picUrl'] }}" alt="First one">
         <div class="carousel-caption">
-          <p>Address: {{ firstItem['address'] }} &emsp; Peoples Choice Votes: {{ firstItem['score'] }} &emsp; Artist Statement: {{ firstItem['artistStatement'] }}
-          <button id="upVoteButton1" type="button" class="btn" value="{{ firstItem['id'] }}"> Upvote this Nature Strip</button></p>
+          <p>Address: {{ firstItem['address'] }} &emsp; Votes: {{ firstItem['score'] }} &emsp; Artist Statement: {{ firstItem['artistStatement'] }} &emsp; PicID: {{ firstItem['id'] }}</br>
+          <button id="upVoteButton1" type="button" class="btn upVoteButton" value="{{ firstItem['id'] }}"> Upvote this Nature Strip</button>
+          <button id="downVoteButton1" type="button" class="btn downVoteButton" value="{{ firstItem['id'] }}"> Downvote this Nature Strip</button></p>
         </div>
       </div>
       
@@ -30,8 +31,9 @@
           <img src="{{ pic['picUrl'] }}" alt="Other">
           <div class="container">
             <div class="carousel-caption">
-              <p>Address: {{ pic['address'] }}  &emsp; Peoples Choice Votes: {{ pic['score'] }} &emsp; Artist Statement: {{ pic['artistStatement'] }}
-              <button id="upVoteButton2" type="button" class="btn" value="{{ pic['id'] }}"> Upvote this Nature Strip</button>
+              <p>Address: {{ pic['address'] }}  &emsp; Votes: {{ pic['score'] }} &emsp; Artist Statement: {{ pic['artistStatement'] }} &emsp; PicID: {{ pic['id'] }} </br>
+              <button id="upVoteButton2" type="button" class="btn upVoteButton" value="{{ pic['id'] }}"> Upvote this Nature Strip</button>
+              <button id="downVoteButton2" type="button" class="btn downVoteButton" value="{{ pic['id'] }}"> Downvote this Nature Strip</button></p>
             </div>
           </div>
         </div>

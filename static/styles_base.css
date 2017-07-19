@@ -1,7 +1,7 @@
 
 #plantIcon {
-  height: 25px;
-  width: 25px;
+  height: 50px;
+  width: 50px;
   left: 0;
   border: 0;
 }
@@ -19,12 +19,55 @@
   text-align: left;
 }
 
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+body{
+  margin-bottom: 60px;
+}
+
 .footer {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   width: 100%;
   text-align: center;
   /* Set the fixed height of the footer here */
   height: 30px;
   background-color: #f5f5f5;
+}
+
+.navbar-brand {
+  height: 80%;
+}
+
+.nav {
+  padding:13px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #8a0e0b;
+}
+.navbar-default .navbar-nav > .active > a {
+    background-color: #f8f8f8;
+}
+
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #8a0e0b;
+    background-color: #f8f8f8;
+}
+
+.navbar-nav > .active {
+    background-color: #f8f8f8;
+}
+
+
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #8a0e0b;
+    background-color: #f8f8f8;
 }

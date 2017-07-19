@@ -1,0 +1,118 @@
+/* allow map to fill viewport */
+html, body, .container-fluid
+{
+    /* height of these elements */
+    height: 100%;
+
+    /* no margin around these elements */
+    margin: 0;
+    
+    /* disable scrollbars */
+    overflow: hidden;
+    /*overflow-y: auto;*/
+
+    /* no padding within these elements */
+    padding: 0;
+}
+
+body { 
+    padding-top: 120px;
+    padding-bottom: 0px; 
+    /*margin: 0 0 60px 0;*/
+}
+
+/*#content {*/
+    /*max-height: calc(100% - 120px);*/
+/*    overflow-y: scroll;*/
+    /*padding: 0px 10%;*/
+    /*margin-top: 60px;*/
+/*}*/
+
+/* stylize carousel */
+
+/*.intro {*/
+/*    text-align: center;*/
+/*    max-width: 100%;*/
+/*    right: 29px;*/
+/*    top: 50%;*/
+/*}*/
+
+.carousel .item {
+      height: 100%;
+    }
+
+.carousel img {
+    /*padding-top: 75px;*/
+    /*width: 80%;*/
+    min-width: 80%;
+    margin: auto;
+    height: 80%;
+    overflow: visible;
+}
+
+.carousel-indicators li { 
+    visibility: hidden; 
+}
+
+/*#myCarousel {*/
+    /*top: 5%;*/
+/*}*/
+
+/*img { */
+/*    width: 80%; */
+/*    margin: auto; */
+/*}*/
+
+.carousel-control {
+    color: blue;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    color: blue;
+}
+
+/*.carousel-caption {*/
+/*    position: relative;*/
+/*    color: black;*/
+/*    left: auto;*/
+/*    right: auto;*/
+/*}*/
+
+.carousel-caption {
+    background-color: #000000;
+    border-radius: 25px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    position: relative;
+    max-width: 70%;
+    left: 15%;
+    padding: 20px;
+    bottom: -20%;
+    /*margin: 0 20% 0 20%;*/
+    /*margin-top: 200px;*/
+    /*margin-bottom: 20px;*/
+    /*bottom: 25px;*/
+    text-align:left;
+    color: white;
+    display: block;
+}
+
+
+.btn {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: #ddd;
+    background-color: #4d90fe;
+    color: white;
+    position: relative;
+    left: 35%;
+    display: block;
+    margin: 20px;
+
+  /*right: 200px;*/
+  /*left: 25%;*/
+  /*bottom: 25px;*/
+  /*z-index: 10;*/
+  /*align:center;*/
+  /*margin:10 auto;*/
+}
+

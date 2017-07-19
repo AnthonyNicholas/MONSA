@@ -4,17 +4,18 @@ import requests
 import random
 from flask import Flask, jsonify, render_template, request, url_for
 from flask_jsglue import JSGlue
+import sys
 
 from cs50 import SQL
 from helpers import lookup
-
-import logging
-logging.basicConfig(filename='debugging.log',level=logging.DEBUG)
 
 # configure application
 app = Flask(__name__)
 JSGlue(app)
 
+# set up logging
+import logging
+logging.basicConfig(filename='debug.log',level=logging.INFO)
 
 # ensure responses aren't cached
 if app.config["DEBUG"]:
@@ -31,55 +32,18 @@ db = SQL("sqlite:///bestNatureStripAddresses.db")
 @app.route("/")
 def mainpage():
     """Get addresses from DB and render gallery. """
+    log("Hello World3")
     
-    places = db.execute("""SELECT * FROM natureStripRecords
-    ORDER BY score DESC
-    LIMIT 20""")
-
-    logging.debug(places)
-
-    picItems=[]
-
-    for row in places:
-        picDetails={}
-        address = row['street_num'] + " " + row['street'] + " " + row['suburb'] + " " +row['state'] + " " + row['country']
-        latLong = str(row['latitude']) + ', ' + str(row ['longitude'])
-        heading = str(row['googSV_heading'])
-        picUrl = 'https://maps.googleapis.com/maps/api/streetview?size=640x300&location=' + latLong + '&fov=100&heading=' + heading + '&pitch=-5&key=AIzaSyCssINvVOAV0n5dZmZLtpgfmMqvCBhuJPo'
-        
-        picDetails['address'] = address 
-        picDetails['picUrl'] = picUrl 
-        picDetails['score'] = row['score']
-        picDetails['artistStatement'] = row['artistStatement']
-        picItems.append(picDetails)
-
-    logging.debug(picItems)
-
+    picItems = getListOfPics()
+    
     return render_template("mainPage.html", key="AIzaSyCssINvVOAV0n5dZmZLtpgfmMqvCBhuJPo", picItems=picItems[1:], firstItem=picItems[0])
     
 @app.route("/gallery")
 def gallery():
     """Get addresses from DB and render gallery. """
     
-    places = db.execute("""SELECT * FROM natureStripRecords
-        ORDER BY score DESC
-        LIMIT 20""")
-
-    picItems=[]
-
-    for row in places:
-        picDetails={}
-        address = row['street_num'] + " " + row['street'] + " " + row['suburb'] + " " +row['state'] + " " + row['country']
-        latLong = str(row['latitude']) + ', ' + str(row ['longitude'])
-        heading = str(row['googSV_heading'])
-        picUrl = 'https://maps.googleapis.com/maps/api/streetview?size=640x300&location=' + latLong + '&fov=100&heading=' + heading + '&pitch=-5&key=AIzaSyCssINvVOAV0n5dZmZLtpgfmMqvCBhuJPo'
-        
-        picDetails['address'] = address 
-        picDetails['picUrl'] = picUrl 
-        picDetails['score'] = row['score']
-        picDetails['artistStatement'] = row['artistStatement']
-        picItems.append(picDetails)
-
+    picItems = getListOfPics()
+    
     return render_template("gallery.html", key="AIzaSyCssINvVOAV0n5dZmZLtpgfmMqvCBhuJPo", picItems=picItems[1:], firstItem=picItems[0])
 
 @app.route("/update")
@@ -167,21 +131,43 @@ def captureButton():
 @app.route("/upVoteButton")
 def upVoteButton():
     
-    logging.debug("entered app.py")
+    log("upvoting")
+    id = int(request.args.get("id")) #dict
 
-    id = request.args.get("id") #dict
-    logging.debug("id = " + id)
-    picItems=getListOfPics()
-    logging.debug("picItems =  " + picItems)
-
+    picItems = getListOfPics()
     pic = getPicByID(picItems, id)
-    newScore = pic['score'] + 1
-    
-    db.execute("""UPDATE places SET score = :newScore WHERE id = :id)""", score=newScore, id = id)
-    
+    newScore = int(pic['score'] + 1)
+    db.execute("""UPDATE natureStripRecords SET score = :newScore WHERE id = :id""", newScore=newScore, id = id)
     picItems=getListOfPics()
 
-    return render_template("mainPage.html", key="AIzaSyCssINvVOAV0n5dZmZLtpgfmMqvCBhuJPo", picItems=picItems, firstItem=pic)
+    return render_template("gallery.html", key="AIzaSyCssINvVOAV0n5dZmZLtpgfmMqvCBhuJPo", picItems=picItems, firstItem=pic)
+
+@app.route("/downVoteButton")
+def downVoteButton():
+    log("downvoting")
+    id = int(request.args.get("id")) #dict
+    log("id = " + str(id))
+    picItems = getListOfPics()
+    pic = getPicByID(picItems, id)
+    newScore = int(pic['score'] - 1)
+    log("newScore = " + str(newScore))
+    db.execute("""UPDATE natureStripRecords SET score = :newScore WHERE id = :id""", newScore=newScore, id = id)
+    picItems=getListOfPics()
+
+    return render_template("gallery.html", key="AIzaSyCssINvVOAV0n5dZmZLtpgfmMqvCBhuJPo", picItems=picItems, firstItem=pic)
+
+@app.route("/reloadGallery")
+def reloadGallery():
+    
+    log("reloading gallery2")
+    id = int(request.args.get("id")) #dict
+
+    picItems = getListOfPics()
+    pic = getPicByID(picItems, id)
+
+    return render_template("gallery.html", key="AIzaSyCssINvVOAV0n5dZmZLtpgfmMqvCBhuJPo", picItems=picItems, firstItem=pic)
+
+
 
 # Get list of pics from db sorted in score order
 
@@ -203,6 +189,7 @@ def getListOfPics():
         picDetails['address'] = address 
         picDetails['picUrl'] = picUrl 
         picDetails['score'] = row['score']
+        picDetails['id'] = row['id']
         picDetails['artistStatement'] = row['artistStatement']
         picItems.append(picDetails)
         
@@ -212,9 +199,17 @@ def getListOfPics():
 
 def getPicByID(picItems, ID):
 
-    for i in range(len(picItems)):
-        if picItems[i]['ID'] == ID:
-            return picItems[i]
+    for pic in picItems:
+        # log(pic['id'])
+        if int(pic['id']) == int(ID):
+            return pic
     
     return None
 
+# Use for logging - flask logging not working
+
+def log(message):
+    
+    logging.info(message)
+    
+    return None
